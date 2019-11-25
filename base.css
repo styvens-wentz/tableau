@@ -1,0 +1,64 @@
+body:not(span) {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+#titre {
+    font-weight: bold;
+    color: crimson;
+    font-family: cursive;
+    margin: 15px;
+    font-size: 50px;
+}
+
+#generer {
+    margin: 40px;
+    background: deepskyblue;
+    border: groove deepskyblue 5px;
+    font-size: 30px;
+    font-family: "Century Gothic", serif;
+    color: brown;
+}
+
+#histoire {
+    text-align: center;
+    font-family: "Arial Rounded MT Bold", serif;
+    font-size: 25px;
+
+}
+
+span {
+    font-weight: bold;
+    color: red;
+}
+
+#ajouter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+    font-family: "Arial Black", serif;
+}
+
+#champ_ajouter, #valider {
+    font-size: initial;
+    font-family: initial;
+    margin: 10px;
+}
+
+#champ_ajouter {
+    border-radius: 5px;
+    border: solid 2px #a2a2a2;
+}
+
+#valider {
+    background: aqua;
+    border: 1px solid #00cece;
+    border-radius: 15px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
